@@ -1,13 +1,13 @@
-"# sequelize_test_001" 
+## sequelize_test_001
 
-## simple example with sequelize nodejs package and sqlite and winston
+### simple example with sequelize nodejs package and sqlite and winston
 npm init 
 npm install
 
-## run the index.js script
+### run the index.js script
 node ./index.js
 
-## this is the result of the running script
+### this is the result of the running script
 ```node ./index.js                    
 Executing (default): SELECT 1+1 AS result
 Connection has been established successfully.
