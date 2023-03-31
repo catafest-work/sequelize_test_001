@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6",
+    "winston": "^3.8.2"
+  },
+  "name": "sequelize_test_001",
+  "version": "1.0.0",
+  "description": "a simple test with sequelize nodejs package ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "catafest",
+    "catafest-work",
+    "sequelize"
+  ],
+  "author": "catafest",
+  "license": "ISC",
+  "type": "module"
+}
