@@ -8,7 +8,7 @@ npm install
 node ./index.js
 
 ## this is the result of the running script
-node ./index.js                    
+```node ./index.js                    
 Executing (default): SELECT 1+1 AS result
 Connection has been established successfully.
 Executing (default): DROP TABLE IF EXISTS `MyTables`;
@@ -37,3 +37,4 @@ All records: [
     updatedAt: 2023-03-31T11:34:08.531Z
   }
 ]
+```
