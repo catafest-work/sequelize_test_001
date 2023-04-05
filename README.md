@@ -47,7 +47,7 @@ npm install
 npm install mysql2  
 
 ### run the index.js script
-node index_mysql.js
+```node index_mysql.js
 Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'DBTest001'
 Executing (default): CREATE DATABASE IF NOT EXISTS DBTest001
 Executing (default): SHOW INDEX FROM `users`
@@ -60,4 +60,4 @@ Executing (default): INSERT INTO `users` (`id`,`name`,`email`,`createdAt`,`updat
   email: 'john.doe@example.com',
   updatedAt: 2023-04-05T13:06:22.523Z,
   createdAt: 2023-04-05T13:06:22.523Z
-}
+}```
