@@ -38,3 +38,6 @@ All records: [
   }
 ]
 ```
+
+### using with mysql 
+npm install mysql2  
